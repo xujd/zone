@@ -1,0 +1,6 @@
+.git
+.vscode
+*.exe
+*.zip
+*.7z
+temp
