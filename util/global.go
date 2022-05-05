@@ -1,8 +1,8 @@
 package util
 
 const (
-	BaseInfo = "ZPPR"
-	Group    = "ZPPR"
+	BaseInfo = "ZONE"
+	Group    = "ZONE"
 )
 
 var (

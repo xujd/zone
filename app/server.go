@@ -27,7 +27,7 @@ func Run(op *ServerOption) error {
 	e.Use(middleware.RateLimiter(middleware.NewRateLimiterMemoryStore(20)))
 	// welcome
 	e.GET("/", func(c echo.Context) error {
-		return c.String(http.StatusOK, "Hello, Welcome to ZPPR!")
+		return c.String(http.StatusOK, "Hello, Welcome to ZONE!")
 	})
 	// error handler
 	e.HTTPErrorHandler = httpErrorHandler
